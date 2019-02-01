@@ -58,7 +58,7 @@ def is_prime(n):
 
 def test_count_primes():
     ###############################################################################
-    # TODO: 2  READ the doc-string for the count_primes function below,
+    # Done: 2  READ the doc-string for the count_primes function below,
     #   but DO NOT begin coding.
     # After you have READ this, change its _TODO_ to DONE.
     ###############################################################################
@@ -66,15 +66,20 @@ def test_count_primes():
     print('Test 1 of count primes')
     print('m = 1 and n = 3')
     print('Expected count = 2')
-    print('Actual count = ', count_primes(1, 3))
+    print('Actual count = ', count_primes(1, 3))\
 
     ###############################################################################
-    #   TODO: 3. Add the additional test cases for this function below
+    #   Done: 3. Add the additional test cases for this function below
     # After you have coded this, change its _TODO_ to DONE.
     ###############################################################################
     print()
     print('Your tests will go here!')
-    return
+    #Test 1
+    Expected = 2
+    actual = is_prime(3)
+    print('Expected ', Expected)
+    print(  'Actual ', actual)
+    
 
 
 def count_primes(m,n):
