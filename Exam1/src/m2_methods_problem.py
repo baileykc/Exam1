@@ -77,12 +77,25 @@ def test_count_primes():
     #Test 1
     Expected = 2
     actual = is_prime(3)
-    print('Expected ', Expected)
+    print('Test 1 Expected ', Expected)
     print(  'Actual ', actual)
-    
+
+
+# Test 2
+    Expected = 5
+    actual = count_primes(1, 3)
+    print(' Test 2 Expected ', Expected)
+    print('Actual ', actual)
+
+
+
+#Ran out of time.
 
 
 def count_primes(m,n):
+
+
+
     """
     #    What comes in:
     #      -- A positive integer m.
